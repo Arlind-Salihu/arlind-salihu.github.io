@@ -798,6 +798,7 @@ a[href*="mailto"] {
 .pricing-box {
   padding: 60px 55px 70px 55px;
   text-align: center;
+  height: 400px;
 }
 
 .pricing-box hr {
@@ -8906,8 +8907,8 @@ html.rd-navbar-fixed-linked .page {
 .review-carousel .item-preview {
   min-width: 216px;
   max-width: 216px;
-  height: 216px;
-  margin-top: 30px;
+  /*height: 216px;*/
+  margin-top: -40px;
   background-color: #ffffff;
   padding: 10px;
   border-radius: 50%;
@@ -9086,4 +9087,16 @@ html.rd-navbar-fixed-linked .page {
 .layer-6 {
   top: 24%;
   left: 19.5%;
+}
+
+.button-190 {
+  margin-top: 10px;
+}
+
+a.button.button-190.button-circle.btn-rounded-outline {
+  margin-left: -20px;
+}
+
+.backMob{
+  margin-top: -130px;
 }
