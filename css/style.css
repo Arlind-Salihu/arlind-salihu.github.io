@@ -6625,9 +6625,24 @@ html.tablet .ui-to-top {
   height: auto;
 }
 
+.backMob{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 310px) {
+  .backMob{
+    height: 450px
+  }
+}
+
 @media (min-width: 576px) {
   .rd-navbar-fixed .rd-navbar-brand img {
     max-width: 160px;
+  }
+  .backMob{
+    height: 450px
   }
 }
 
@@ -8469,6 +8484,9 @@ html.rd-navbar-fixed-linked .page {
   .card-corporate .card-title a {
     font-size: 18px;
   }
+  .backMob{
+    height: 450px
+  }
 }
 
 /*
@@ -8857,11 +8875,17 @@ html.rd-navbar-fixed-linked .page {
     margin-right: 60px;
     align-self: flex-start;
   }
+  .backMob{
+    height: 450px
+  }
 }
 
 @media (min-width: 992px) {
   .review-carousel .item {
     padding-right: 120px;
+  }
+  .backMob{
+    height: 450px
   }
 }
 
